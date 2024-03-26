@@ -1,0 +1,90 @@
+
+body {
+    background-color: #FFF6E9;
+}
+
+.h1Chori{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    background-color: #40A2E3;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #222831;
+    font-size: 3rem;
+    --mask: conic-gradient(from -45deg at bottom,#0000,#000 1deg 90deg,#0000 91deg) 50% / 60px 100%;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    border-bottom: 32px solid #BBE2EC; /* Define el grosor y el color del borde inferior */
+    border-image-slice: 1; /* Ajusta la imagen del borde para que se muestre correctamente */
+    border-image-source: conic-gradient(#BBE2EC, #BBE2EC); 
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Alinea score a la derecha y levelChori a la izquierda */
+    align-items: stretch;
+}
+.score{
+    font-family: "Merriweather", serif;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 50px;
+    color: #40A2E3;
+}
+.level{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+    color: #0D9276;
+}
+.levelChori {
+    display: flex; 
+    align-items: center;
+}
+.h3Chori{
+    padding-top: 5px;
+    color: #0D9276;
+}
+.bodyDiv{
+    text-align: center;
+    margin-top: 50px;
+}
+.botonClick{
+    font-family: "Merriweather", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-secondary{
+    background-color: #0D9276;
+    color: #FFF6E9;
+}
+.score{
+    font-family: "Merriweather", serif;
+    margin-right: 40px;
+
+}
+.number{
+    margin-top: -43px;
+    margin-left: 680px;
+}
+
+.botonConfirmar{
+    background-color: aqua;
+}
+
+
+/* Aca van los estilos para sweetAlert */
+
+.tituloSweetAlert{
+    color: #0D9276;
+}
+
+/* Aca va el estilo de las imagenes */
+
+.imgChori {
+    text-align: center;
+}
+.imgChori img {
+    width: 400px;
+    height: 400px;
+}
